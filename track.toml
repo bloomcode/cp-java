@@ -1,0 +1,139 @@
+# Track metadata. The site builder and tools/check_track.py read this file.
+track = "cp"
+language = "java"
+name = "Competitive programming in Java"
+sources = "src/Ch*.java"
+test = "./run_tests.sh"
+exercises = 134
+
+[[parts]]
+n = 1
+name = "Language basics"
+chapters = [1, 2, 3, 4]
+
+[[parts]]
+n = 2
+name = "Arrays and collections"
+chapters = [5, 6, 7, 8, 9]
+
+[[parts]]
+n = 3
+name = "Objects and functions"
+chapters = [10, 11, 12]
+
+[[parts]]
+n = 4
+name = "Contest essentials"
+chapters = [13, 14, 15, 16]
+
+[[chapters]]
+n = 1
+title = "Input and Output"
+short = "Fast I/O"
+focus = "BufferedReader, StringTokenizer and one PrintWriter: read the judge's input fast and print it exactly."
+file = "src/Ch01FastIO.java"
+
+[[chapters]]
+n = 2
+title = "Numbers and Overflow"
+short = "Numbers"
+focus = "int wraps silently. Learn when to reach for long, how Java divides negatives, and modular arithmetic."
+file = "src/Ch02Numbers.java"
+
+[[chapters]]
+n = 3
+title = "Strings and StringBuilder"
+short = "Strings"
+focus = "Immutable strings, char arithmetic and building output without quadratic copying."
+file = "src/Ch03Strings.java"
+
+[[chapters]]
+n = 4
+title = "Control Flow"
+short = "Control flow"
+focus = "Loops, labeled breaks, switch expressions and the ternary operator."
+file = "src/Ch04ControlFlow.java"
+
+[[chapters]]
+n = 5
+title = "Arrays"
+short = "Arrays"
+focus = "Fixed-size primitive arrays: defaults, copies, 2D grids, prefix sums and safe sorting."
+file = "src/Ch05Arrays.java"
+
+[[chapters]]
+n = 6
+title = "ArrayList and List"
+short = "Lists"
+focus = "Growable lists of boxed values, and the Integer traps that come with them."
+file = "src/Ch06Lists.java"
+
+[[chapters]]
+n = 7
+title = "HashMap, HashSet and TreeMap"
+short = "Maps and sets"
+focus = "Counting, grouping and ordered lookups with floor and ceiling."
+file = "src/Ch07Maps.java"
+
+[[chapters]]
+n = 8
+title = "Sorting and Comparators"
+short = "Sorting"
+focus = "Comparator chains, Comparable, stable sorts and the subtraction bug."
+file = "src/Ch08Sorting.java"
+
+[[chapters]]
+n = 9
+title = "Deque, PriorityQueue and TreeSet"
+short = "Queues and heaps"
+focus = "Stacks, queues, heaps and ordered sets: the contest toolkit."
+file = "src/Ch09Queues.java"
+
+[[chapters]]
+n = 10
+title = "Classes, Records and Generics"
+short = "Classes"
+focus = "Just enough object-oriented Java: equals and hashCode, records, sealed types and generics."
+file = "src/Ch10Classes.java"
+
+[[chapters]]
+n = 11
+title = "Lambdas and Streams"
+short = "Streams"
+focus = "Functional interfaces and streams, and when a plain loop is the better choice."
+file = "src/Ch11Streams.java"
+
+[[chapters]]
+n = 12
+title = "Recursion and Memoization"
+short = "Recursion"
+focus = "Memo tables, backtracking, and running deep recursion on a big-stack thread."
+file = "src/Ch12Recursion.java"
+
+[[chapters]]
+n = 13
+title = "Bit Manipulation"
+short = "Bits"
+focus = "Masks, shifts, the 1L << 40 trap and enumerating subsets."
+file = "src/Ch13Bits.java"
+
+[[chapters]]
+n = 14
+title = "Math and Number Theory"
+short = "Number theory"
+focus = "GCD, sieves, factorization, nCr mod p and BigInteger."
+file = "src/Ch14Math.java"
+
+[[chapters]]
+n = 15
+title = "Writing Fast Java"
+short = "Speed"
+focus = "StreamTokenizer, buffered output, primitive arrays and the operations budget."
+file = "src/Ch15FastJava.java"
+
+[[chapters]]
+n = 16
+title = "Contest Patterns"
+short = "Patterns"
+focus = "Two pointers, binary search on the answer, difference arrays, DSU, Dijkstra and DP."
+file = "src/Ch16Patterns.java"
