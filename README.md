@@ -2,7 +2,7 @@
 
 <!-- progress:start -->[![progress](https://img.shields.io/badge/progress-0%2F134-lightgrey)](PROGRESS.md)<!-- progress:end -->
 
-134 exercises in 16 chapters, for engineers preparing for coding interviews and contests. Every exercise is a stub that throws `UnsupportedOperationException` and has its own test. Write the code, make the test pass, move on.
+152 exercises in 19 chapters, for engineers preparing for coding interviews and contests. Every exercise is a stub that throws `UnsupportedOperationException` and has its own test. Write the code, make the test pass, move on.
 
 The workbook explains each exercise and the answer key has a reference solution: [workbook](https://bloomcode.github.io/cp/java/workbook.html) · [answer key](https://bloomcode.github.io/cp/java/answer-key.html).
 
@@ -61,3 +61,4 @@ If a file you have worked on conflicts, keep your version of your code (`git che
 | Arrays and collections | 5 Arrays · 6 Lists · 7 Maps and sets · 8 Sorting · 9 Queues and heaps |
 | Objects and functions | 10 Classes · 11 Streams · 12 Recursion |
 | Contest essentials | 13 Bits · 14 Number theory · 15 Speed · 16 Patterns |
+| Beyond the contest | 17 Errors · 18 Files · 19 Concurrency |
