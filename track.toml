@@ -27,7 +27,7 @@ name = "Contest essentials"
 chapters = [13, 14, 15, 16]
 
 [[parts]]
-n = 6
+n = 5
 name = "Beyond the contest"
 chapters = [17, 18, 19]
 
